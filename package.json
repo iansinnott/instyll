@@ -1,7 +1,11 @@
 {
-  "name": "stylus-tween",
-  "version": "1.0.0",
-  "main": "index.styl",
-  "repository": {},
+  "name": "instyl",
+  "author": "Ian Sinnott <ian@iansinnott.com> (https://www.iansinnott.com)",
+  "version": "0.1.0",
+  "main": "index.js",
+  "repository" : {
+    "type" : "git",
+    "url" : "https://github.com/iansinnott/instyl"
+  },
   "license": "MIT"
 }
