@@ -3,6 +3,9 @@
   "author": "Ian Sinnott <ian@iansinnott.com> (https://www.iansinnott.com)",
   "version": "0.1.2",
   "main": "index.js",
+  "scripts": {
+    "postpublish": "git push && git push --tags"
+  },
   "repository": {
     "type": "git",
     "url": "https://github.com/iansinnott/instyll"
