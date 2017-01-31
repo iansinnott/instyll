@@ -1,11 +1,11 @@
 {
-  "name": "instyl",
+  "name": "instyll",
   "author": "Ian Sinnott <ian@iansinnott.com> (https://www.iansinnott.com)",
   "version": "0.1.0",
   "main": "index.js",
   "repository" : {
     "type" : "git",
-    "url" : "https://github.com/iansinnott/instyl"
+    "url" : "https://github.com/iansinnott/instyll"
   },
   "license": "MIT"
 }
