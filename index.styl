@@ -1,0 +1,20 @@
+// Do not autoprefix anything at the stylus language level. Autoprefixing will
+// be handled by postcss + autoprefixer in the build pipeline
+vendors = official
+
+// Use with inputs / buttons you don't want users to interact with
+uninteractive()
+  user-select none
+  pointer-events none
+  cursor not-allowed
+
+// Just an alias for transition that allows specifying multiple properties up
+// front and having them share the same duration and easing. I chose the name
+// tween simply because that's what transitions do and I didn't want to
+// overwrite standard CSS `transition`
+tween(props = all, duration = 0.8s, easing = cubic-bezier(0, 0, 0.25, 1))
+  t = ()
+  for p in props
+    push(t, join(' ', p duration easing))
+  transition unquote(join(', ', t))
+
